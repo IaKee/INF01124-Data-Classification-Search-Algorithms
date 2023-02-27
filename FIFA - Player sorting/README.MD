@@ -12,13 +12,17 @@ Overall, this project was a great opportunity for me to apply the sorting and se
 
 ## Screenshots
 - Initial screen
+
 ![UI](https://i.imgur.com/nVgB1fH.png)
 
 - Reading CSV files
+
 ![READING](https://i.imgur.com/uyLTbXL.png)
 
 - Main menu
+
 ![MAINMENU](https://i.imgur.com/Cf1XNwJ.png)
 
 - Sample search
+
 ![SEARCH](https://i.imgur.com/vb2viSh.png)
