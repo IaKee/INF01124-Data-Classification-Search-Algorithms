@@ -1,0 +1,51 @@
+BUBBLESORT: é um algoritmo de ordenação simples, por "bolha" ou por flutuação. A ideia é percorrer
+o vetor diversas vezes, e em cada passagem fazer flutuar para o topo o maior elemento da sequencia (vai passando para a direita)
+	-melhor caso: o algoritmo executa n operaçoes, onde n é o número de elementos do vetor
+	-pior caso: n² operaçoes
+	-tem complexidade quadratica
+	-Não é recomendado para programas que precisem de velocidade e que operem com quantidade elevada de dados
+	
+	Este algoritmo percorre a lista de itens ordenáveis do início ao fim, verificando a ordem dos elementos dois a dois, e trocando-os
+ de lugar se necessário. Percorre-se a lista até que nenhum elemento tenha sido trocado de lugar na passagem anterior.
+
+INSERTIONSORT: recria um vetor - vai percorrendo a linha, colocando o menor elemento a esquerda
+-não é recomendado para quando a entrada for aleatoria ou decrescente, ou quanto o vetor for mt grande
+-é bom para quando sabemos que o vetor está quase ordenado, onde haverão poucas operaçoes
+
+Exemplo: Organize 32 7 3 15 13 4 21 6 2 9 1 31
+32------------------------------------------
+7 32----------------------------------------
+3 7 32--------------------------------------
+3 7 15 32 ----------------------------------
+3 4 7 13 15 32------------------------------
+3 4 7 13 15 21 32 --------------------------
+6 4 6 7 13 15 21 32 ------------------------
+2 3 4 6 7 13 15 21 32 ----------------------
+2 3 4 6 7 9 13 15 21 32---------------------
+1 2 3 4 6 7 9 13 15 21 32-------------------
+1 2 3 4 6 7 9 13 15 21 31 32----------------
+
+(10 9 8 7 6 5 ... -> isso pode ser chamado de caso pior, porque é o que vai levar mais operaçoes)
+
+BUSCA BINARIA: [PARTE ORDENADA|X|PARTE NAO ORDENADA] -> move sempre um termo x para a parte ordenada
+numero de testes por execução (n²-n)/2
+
+SHELLSORT: 
+	-ao inves de aplicar o insertionsort sobre todos os elementos do vetor, trabalha com grupos
+	-primeiro elemento é o primeiro
+	-segundo elemento é o primeiro + um pulo, *definido anteriormente*
+	-com h=1, se torna exatamente igual ao insertionsort
+
+HEAPSORT:
+	-tem um desempenho muito bom em conjuntos ordenados aleatoriamente
+	-o pior cenario tem desempenho similar a cenarios medianos
+	-cria uma arvore n na execução, posicionando menores elementos como filhos a esquerda e maiores filhos a direita e
+trocando pais/filhos conforme necessario (https://pt.wikipedia.org/wiki/Ficheiro:Heapsort-example.gif)
+	-max heap: arvore em que o maior elemento fica na raiz
+
+QUICKSORT: é um algoritmo de ordenação por comparação não estavel
+	-Divisão e conquista
+	1-Escolhe um elemento da lista, denominado pivô;
+	2-Particiona: rearranje a lista de forma que todos os elementos anteriores ao pivô sejam menores que ele, e todos os elementos posteriores ao pivô sejam maiores que ele. Ao fim do processo o pivô estará em sua posição final e haverá duas sub listas não ordenadas. Essa operação é denominada partição;
+	3-Recursivamente ordene a sub lista dos elementos menores e a sub lista dos elementos maiores;
+	-A escolha do pivô e os passos do Particiona podem ser feitos de diferentes formas e a escolha de uma implementação específica afeta fortemente a performance do algoritmo.

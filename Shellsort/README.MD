@@ -1,0 +1,5 @@
+The code consists of a Python script that performs sorting algorithms on arrays read from input files. The script imports three libraries, numpy, math and time. The input file is read from the specified path, and the output files are created to save the results of the sorting algorithms and the execution time of each algorithm. The script defines three functions, shellSort, gapInsertionSort, and leArquivo.
+
+leArquivo function reads the input file and calls the shellSort function to sort the arrays using different sorting algorithms like ShellSort, Knuth and Ciura. For each sorting algorithm, the shellSort function sorts the array using the corresponding increment sequence, and writes the sorted array, increment size and sequence to an output file. The gapInsertionSort function is called by the shellSort function to sort the array with a given increment sequence.
+
+The code starts by opening the input file, creating the output files, and reading the input file line by line. It then calls the leArquivo function to sort the array using three different sorting algorithms. For each sorting algorithm, the execution time is calculated and written to the output file.

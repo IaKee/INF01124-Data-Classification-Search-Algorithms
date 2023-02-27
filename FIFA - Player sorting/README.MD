@@ -1,0 +1,5 @@
+"D:\Documentos\Escola\UFRGS\Sexto semestre\INF01124-Data-Classification-Search-Algorithms\FIFA - Player sorting\players_21.csv"
+"D:\Documentos\Escola\UFRGS\Sexto semestre\INF01124-Data-Classification-Search-Algorithms\FIFA - Player sorting\rating.csv"
+"D:\Documentos\Escola\UFRGS\Sexto semestre\INF01124-Data-Classification-Search-Algorithms\FIFA - Player sorting\tags.csv"
+"D:\Documentos\Escola\UFRGS\Sexto semestre\INF01124-Data-Classification-Search-Algorithms\FIFA - Player sorting\minirating.csv"
+"D:\Documentos\Escola\UFRGS\Sexto semestre\INF01124-Data-Classification-Search-Algorithms\FIFA - Player sorting\players.csv"
